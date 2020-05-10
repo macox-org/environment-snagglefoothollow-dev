@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:snagglefoothollow/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.staging-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:snagglefoothollow/pipelineUser:token
+  username: cloudbees-ci-cd-staging[bot]
+prow:
+  hmacToken: vault:snagglefoothollow/prow:hmacToken
+segmentWriteKey: vault:snagglefoothollow:segmentWriteKey
